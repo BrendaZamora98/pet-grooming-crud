@@ -242,7 +242,16 @@ public class LoadData extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClearActionPerformed
-        // TODO add your handling code here:
+        // Clear Button
+        txtPetName.setText("");
+        txtBreed.setText("");
+        txtColor.setText("");
+        cmbAllergies.setSelectedIndex(0);
+        cmbSpCare.setSelectedIndex(0);
+        txtOwnerName.setText("");
+        txtPhone.setText("");
+        txtAddress.setText("");
+        
     }//GEN-LAST:event_btnClearActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
