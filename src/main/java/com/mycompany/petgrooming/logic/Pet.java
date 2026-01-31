@@ -1,14 +1,24 @@
 package com.mycompany.petgrooming.logic;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+@Entity
 public class Pet {
     
     //Attributes
+    @Id
+    @GeneratedValue(strategy=GenerationType.SEQUENCE)
     private int petId;
     private String petName;
     private String breed;
     private String color;
     private String allergies;
     private String specialCare;
+    @OneToOne
     private Owner theOwner;
     
     
