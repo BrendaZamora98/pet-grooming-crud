@@ -12,17 +12,17 @@
             <artifactId>mysql-connector-j</artifactId>
             <version>8.3.0</version>
         </dependency>
-        <!-- EclipseLink JPA -->
+        <!-- EclipseLink -->
         <dependency>
         <groupId>org.eclipse.persistence</groupId>
         <artifactId>eclipselink</artifactId>
-        <version>2.7.12</version>
+        <version>3.0.2</version>
         </dependency>
-        <!-- JPA API -->
+        <!-- Jakarta Persistence API -->
         <dependency>
-        <groupId>javax.persistence</groupId>
-        <artifactId>javax.persistence-api</artifactId>
-        <version>2.2</version>
+        <groupId>jakarta.persistence</groupId>
+        <artifactId>jakarta.persistence-api</artifactId>
+        <version>3.1.0</version>
         </dependency>
     </dependencies>    
     <properties>
